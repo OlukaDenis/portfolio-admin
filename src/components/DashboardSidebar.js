@@ -28,31 +28,31 @@ const items = [
     icon: BarChart,
     title: 'Dashboard',
   },
-  {
-    href: '/app/orders',
-    icon: ShoppingBasket,
-    title: 'Orders',
-  },
-  {
-    href: '/app/customers',
-    icon: UsersIcon,
-    title: 'Customers',
-  },
-  {
-    href: '/app/products',
-    icon: ShoppingBagIcon,
-    title: 'Products',
-  },
-  {
-    href: '/app/account',
-    icon: UserIcon,
-    title: 'Account',
-  },
-  {
-    href: '/app/settings',
-    icon: SettingsIcon,
-    title: 'Settings',
-  },
+  // {
+  //   href: '/app/orders',
+  //   icon: ShoppingBasket,
+  //   title: 'Orders',
+  // },
+  // {
+  //   href: '/app/customers',
+  //   icon: UsersIcon,
+  //   title: 'Customers',
+  // },
+  // {
+  //   href: '/app/products',
+  //   icon: ShoppingBagIcon,
+  //   title: 'Products',
+  // },
+  // {
+  //   href: '/app/account',
+  //   icon: UserIcon,
+  //   title: 'Account',
+  // },
+  // {
+  //   href: '/app/settings',
+  //   icon: SettingsIcon,
+  //   title: 'Settings',
+  // },
   // {
   //   href: '/login',
   //   icon: LockIcon,
