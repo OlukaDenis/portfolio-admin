@@ -14,6 +14,7 @@ import OrderDetails from './pages/OrderDetails';
 import PrintOrder from './pages/PrintOrder';
 import Logs from './pages/Logs';
 import TransactionLogDetails from './components/logs/TransactionLogDetails';
+import NewProject from './pages/NewProject';
 
 const routes = [
   {
@@ -41,6 +42,7 @@ const routes = [
       { path: 'settings', element: <Settings /> },
       { path: 'logs', element: <Logs /> },
       { path: 'logs/:id', element: <TransactionLogDetails /> },
+      { path: 'newProject', element: <NewProject /> },
       { path: '*', element: <Navigate to="/404" /> },
     ],
   },

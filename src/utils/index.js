@@ -42,6 +42,12 @@ const correctDate = (timestamp) => {
   return timestamp;
 };
 
+const capitalizeFirstLetter = (str) => `${str[0].toUpperCase()}${str.slice(1)}`;
+
 export {
-  currencyFormatter, formatLongDate, getDateDiff, isDateOverdue,
+  currencyFormatter,
+  formatLongDate,
+  getDateDiff,
+  isDateOverdue,
+  capitalizeFirstLetter,
 };

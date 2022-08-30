@@ -22,7 +22,7 @@ import {
 } from '@mui/icons-material';
 import { CSVLink } from 'react-csv';
 import { useDispatch, useSelector } from 'react-redux';
-import OrderList from 'src/components/dashboard/OrderList';
+import OrderList from 'src/components/orders/OrderList';
 import { getOrders } from '../store/actions/orders.action';
 import { isDateOverdue } from '../utils';
 

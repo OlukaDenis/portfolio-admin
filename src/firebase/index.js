@@ -9,6 +9,10 @@ import {
   getDatabase, ref, onValue, query, orderByChild, limitToFirst, limitToLast, equalTo, get, child,
 } from 'firebase/database';
 
+import {
+  getStorage, ref as imageRef, uploadBytesResumable, getDownloadURL,
+} from 'firebase/storage';
+
 // Staging config
 const firebaseConfig = {
   apiKey: 'AIzaSyBFEYNRydjOd6rLyMPylztmevWoH-ZVsfQ',
@@ -44,4 +48,8 @@ export {
   equalTo,
   get,
   child,
+  uploadBytesResumable,
+  imageRef,
+  getStorage,
+  getDownloadURL,
 };

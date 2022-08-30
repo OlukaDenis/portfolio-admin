@@ -9,6 +9,7 @@ import orderReducer from './reducer/orders.reducer';
 import userReducer from './reducer/user.reducer';
 import productReducer from './reducer/products.reducer';
 import logReducer from './reducer/logs.reducer';
+import projectReducer from './reducer/project.reducer';
 
 const reducer = combineReducers({
   authReducer,
@@ -16,6 +17,7 @@ const reducer = combineReducers({
   userReducer,
   productReducer,
   logReducer,
+  projectReducer,
 });
 
 const persistConfig = {

@@ -13,8 +13,13 @@ import {
 } from '@mui/material';
 import {
   User as UserIcon,
+  ShoppingBag as ShoppingBagIcon,
+  Settings as SettingsIcon,
+  Users as UsersIcon,
 } from 'react-feather';
-import { BarChart, ShoppingBasket } from '@mui/icons-material';
+import {
+  BarChart, ShoppingBasket,
+} from '@mui/icons-material';
 import NavItem from './NavItem';
 
 const items = [
@@ -28,26 +33,26 @@ const items = [
     icon: ShoppingBasket,
     title: 'Orders',
   },
-  // {
-  //   href: '/app/customers',
-  //   icon: UsersIcon,
-  //   title: 'Customers',
-  // },
-  // {
-  //   href: '/app/products',
-  //   icon: ShoppingBagIcon,
-  //   title: 'Products',
-  // },
-  // {
-  //   href: '/app/account',
-  //   icon: UserIcon,
-  //   title: 'Account',
-  // },
-  // {
-  //   href: '/app/settings',
-  //   icon: SettingsIcon,
-  //   title: 'Settings',
-  // },
+  {
+    href: '/app/customers',
+    icon: UsersIcon,
+    title: 'Customers',
+  },
+  {
+    href: '/app/products',
+    icon: ShoppingBagIcon,
+    title: 'Products',
+  },
+  {
+    href: '/app/account',
+    icon: UserIcon,
+    title: 'Account',
+  },
+  {
+    href: '/app/settings',
+    icon: SettingsIcon,
+    title: 'Settings',
+  },
   // {
   //   href: '/login',
   //   icon: LockIcon,
